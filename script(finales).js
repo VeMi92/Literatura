@@ -1,4 +1,6 @@
 //*cartas normales*/
+
+
 function ucumar(){
     const ucu = document.querySelector('#ucumar')
     ucu.style.display = 'flex'
@@ -24,8 +26,9 @@ function nahuelito(){
     nah.style.display = 'flex'
 }
 function pombero(){
-    const pom = document.querySelector('#pombero')
-    pom.style.display = 'flex'
+        localStorage.setItem('nombre', 'Juan');
+        const pom = document.querySelector('#pombero')
+        pom.style.display = 'flex'
 }
 
 //*especial*/
@@ -33,3 +36,4 @@ function gauchogil(){
     const gau = document.querySelector('#gauchogil')
     gau.style.display = 'flex'
 }
+

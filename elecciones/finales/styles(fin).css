@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    background-color: rgb(50, 50, 50);
+}
+body{
+    display: flex;
+    margin: 1vh 5vh;
+}
+
+.pancho{
+    font-family: "Pixelify Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pancho h1{
+    position: relative;
+    text-align: center;
+    background: linear-gradient(to right, red, orangered);
+    background-clip: text;
+    text-shadow: .3vh .3vh maroon;
+    color: transparent;
+    font-size: 9vh;
+}
+.pancho img{
+    width: 70vh;
+    border: 2px solid white;
+    padding: 5px;
+    background-color: rgb(20 20 20);
+}
+
+.flechas{
+    position: absolute;
+    bottom: 18vh;
+    width: 99%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flechas a{
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+    font-size: 5vh;
+}
+.flechas a:hover{
+    text-decoration: none;
+}
+.flechas a:active{
+    text-decoration: none;
+    
+}
+
+#content{
+    justify-content: center;
+    align-items: flex-end;
+    height: 100vh;
+    overflow: hidden;
+}
+.textbox{
+    height: 100vh;
+    position: relative;
+}
+.tarjeta{
+    text-align: center;
+    height: 100%;
+}
+.tarjeta img{ 
+    height: 70vh;
+}
+
+.texto{
+    justify-content: center;
+    text-align: center;
+    border: .8vh solid white;
+    background-color: black;
+    height: 25vh;
+    font-family: "Micro 5", sans-serif;
+    font-size: 7vh;
+    color:aliceblue;
+    margin: 0 6vh;
+}
+
+.boton{
+    margin: 0 1vh;
+    border: 1px solid white;
+    text-decoration: none;
+    background-color: rgb(2, 2, 2);
+    font-family: "Micro 5", sans-serif;
+    font-size: 4vh;
+    color:aliceblue;
+}
+.boton:hover{
+    background-color: rgb(10, 10, 10);
+    cursor: pointer;
+}
