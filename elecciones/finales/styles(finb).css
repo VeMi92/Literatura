@@ -11,36 +11,13 @@ body{
     margin: 1vh 5vh;
 }
 
-.pancho{
-    font-family: "Pixelify Sans", sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.pancho h1{
-    position: relative;
-    text-align: center;
-    background: linear-gradient(to right, red, orangered);
-    background-clip: text;
-    text-shadow: .3vh .3vh maroon;
-    color: transparent;
-    font-size: 9vh;
-}
-.pancho img{
-    width: 70vh;
-    border: 2px solid white;
-    padding: 5px;
-    background-color: rgb(20 20 20);
-}
-
 .flechas{
     position: absolute;
     bottom: 18vh;
     width: 99%;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 .flechas a{
     font-style: normal;
@@ -73,7 +50,21 @@ body{
 .tarjeta img{ 
     height: 70vh;
 }
-
+#titulo{
+    display:flex;
+    width: 100%;
+    justify-content: center;
+}
+h1{
+    font-family: "Pixelify Sans", sans-serif;
+    display: flex;
+    position: absolute;
+    background: linear-gradient(to right, red, orangered);
+    background-clip: text;
+    text-shadow: .3vh .3vh maroon ;
+    color: transparent;
+    font-size: 9vh;
+}
 .texto{
     justify-content: center;
     text-align: center;

@@ -61,27 +61,20 @@ section{
     width: 30vh;
 }
 
-#duende img{
-    display:none;
-}
-#ucumar img{
-    display:none;
-}
-#almamula img{
-    display:none;
-}
-#familiar img{
-    display:none;
-}
-#nahuelito img{
-    display:none;
-}
-#pombero img{
-    display:none;
-}
-#luzmala img{
-    display:none;
+#gauchogil{
+    border: 7px solid skyblue;
+    background:linear-gradient(to bottom, maroon, red, maroon, rgb(20, 20, 20))
 }
 #gauchogil img{
     display:none;
+}
+#gauchogil p{
+    
+    font-family: "Pixelify Sans", sans-serif;
+    background: linear-gradient(to top, orangered, rgb(255, 255, 0));
+    background-clip: text;
+    text-shadow: .5vh .5vh white ;
+    font-size: 10vh;
+    color: transparent;
+    text-align: center;
 }
