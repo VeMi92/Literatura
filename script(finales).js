@@ -26,7 +26,6 @@ function nahuelito(){
     nah.style.display = 'flex'
 }
 function pombero(){
-        localStorage.setItem('nombre', 'Juan');
         const pom = document.querySelector('#pombero')
         pom.style.display = 'flex'
 }
